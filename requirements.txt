@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+transformers
+torch
+pandas
+pymongo
+python-dotenv
+spacy
