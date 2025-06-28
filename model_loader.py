@@ -7,7 +7,7 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 
 def download_and_unzip_from_drive(file_id, destination_folder):
-    url = f"https://drive.google.com/uc?export=download&id=1V-sixHIF2uxjPMyVdL6YuN3Me-6Lm2hi"
+    url = f"https://drive.google.com/uc?export=download&id={file_id}"
     zip_path = "model.zip"
 
     # Download ZIP
